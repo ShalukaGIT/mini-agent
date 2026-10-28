@@ -1,0 +1,23 @@
+{
+  "_comment": "Add your own jobs here. Each task = one prompt. Edit + commit, done.",
+  "tasks": [
+    {
+      "name": "morning",
+      "title": "Morning brief",
+      "enabled": true,
+      "prompt": "It is morning in Sri Lanka. Give me a short, friendly brief for the day in under 120 words, as 3 bullet points: 1) one thing to focus on for my Food Science degree studies, 2) one small health or habit reminder, 3) one sentence of encouragement. Be concrete and warm. No preamble, no headings, just the three bullets."
+    },
+    {
+      "name": "evening",
+      "title": "Evening review nudge",
+      "enabled": true,
+      "prompt": "It is evening in Sri Lanka. In under 90 words, give me 3 short questions to review my study day (what I finished, what slipped, what is first tomorrow). Numbered list only, no intro, no closing."
+    },
+    {
+      "name": "test",
+      "title": "Connection test",
+      "enabled": true,
+      "prompt": "Reply with exactly one line: MINI_AGENT_OK"
+    }
+  ]
+}
